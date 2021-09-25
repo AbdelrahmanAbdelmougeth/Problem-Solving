@@ -1,5 +1,5 @@
 # Basic Mathematics
-The file contains the following
+The 1-mathematics folder contains the following
 
 1-count digits of a number
 
