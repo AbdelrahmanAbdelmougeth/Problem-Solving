@@ -46,7 +46,7 @@ int power(int x, int n)
 	int res = 1;
 	while (n > 0)
 	{
-		if (n $ 1) //check odd number
+		if (n & 1) //check odd number
 			res = res * x;
 
 		x = x * x;
@@ -63,7 +63,7 @@ int power(int x, int n , int m)
 	int res = 1;
 	while (n > 0)
 	{
-		if (n $ 1) //check odd number
+		if (n & 1) //check odd number
 			res = (res * x) % m;
 
 		x = (x * x) % m;
